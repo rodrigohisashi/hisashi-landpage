@@ -1,0 +1,41 @@
+export const theme = {
+  colors: {
+    bg: '#0a0a0a',
+    bgSecondary: '#111111',
+    surface: '#141414',
+    surfaceHover: '#1a1a1a',
+    border: '#262626',
+    borderHover: '#404040',
+    primary: '#00d4aa',
+    primaryHover: '#00e6bb',
+    primaryGlow: 'rgba(0, 212, 170, 0.15)',
+    secondary: '#6366f1',
+    accent: '#ffffff',
+    text: '#e5e5e5',
+    textMuted: '#a3a3a3',
+    textDim: '#737373',
+    gradient: 'linear-gradient(135deg, #00d4aa 0%, #6366f1 100%)',
+    gradientText: 'linear-gradient(135deg, #00d4aa 0%, #6366f1 50%, #00d4aa 100%)',
+  },
+  fonts: {
+    heading: "'IBM Plex Sans', system-ui, sans-serif",
+    body: "'Inter', system-ui, sans-serif",
+    mono: "'JetBrains Mono', monospace",
+  },
+  shadows: {
+    glow: '0 0 40px rgba(0, 212, 170, 0.15)',
+    glowStrong: '0 0 60px rgba(0, 212, 170, 0.25)',
+    card: '0 4px 24px rgba(0, 0, 0, 0.4)',
+  },
+  transitions: {
+    default: '0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+    slow: '0.5s cubic-bezier(0.4, 0, 0.2, 1)',
+    bounce: '0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+  },
+  breakpoints: {
+    sm: '640px',
+    md: '768px',
+    lg: '1024px',
+    xl: '1280px',
+  },
+};
